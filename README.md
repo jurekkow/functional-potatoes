@@ -20,11 +20,11 @@ Our response should be of form:
 You can notice that we have to:
 - Drop unneeded fields
 - Extract kind name from inconsistent structure
-- Convert price per ton to proce per kg
+- Convert price per ton to price per kg
 - Format kind name, so that each word starts with capital letter
-and there is a "(Premium)" sufix for potatoes more expensive 
+and there is a "(Premium)" suffix for potatoes more expensive 
 than 5 units
-- Finally map fields to `"name`" and `"priceKG"`
+- Finally, map fields to `"name`" and `"priceKG"`
 
 # Let's code! :computer:
 This repo has a working solution, so you can just read throgh it's
@@ -36,5 +36,5 @@ try it on your own and then compare with solution.
 
 Do not remember to install [requirements](requirements.txt).
 
-Good luch and have fun!
+Good luck and have fun!
 
